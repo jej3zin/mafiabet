@@ -1,0 +1,13 @@
+.header{
+    height: 10vh;
+    padding: 2px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-01);
+    --bg-01: rgba(0, 0, 0, 0.75);
+}
+
+.btn{
+    padding: 3px 8px;
+}

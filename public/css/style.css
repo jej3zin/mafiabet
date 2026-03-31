@@ -1,3 +1,6 @@
+/* Import */
+@import url("./header/header.css");
+
 body {
   margin: 0;
   font-family: Arial;
@@ -39,15 +42,6 @@ root{
 }
 
 /* HEADER */
-header {
-  height: 10vh;
-  padding: 0 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #141414;
-}
-
 nav button {
   margin-left: 10px;
   padding: 8px;
