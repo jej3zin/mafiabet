@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>BetX - VIP</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<!-- APP -->
+<div id="app" class="hidden">
+
+  <header>
+    <h1>BetX</h1>
+    <nav>
+      <button onclick="showSection('home')">Home</button>
+      <button onclick="showSection('games')">Jogos</button>
+      <button onclick="showSection('profile')">Perfil</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="active">
+      <h2>Bem-vindo</h2>
+      <p>Plataforma VIP 🔥</p>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games">
+      <h2>Jogos</h2>
+
+      <div class="game-card">
+        <h3>Roleta</h3>
+        <button onclick="bet(1000)">Apostar 1.000</button>
+      </div>
+
+      <div class="game-card">
+        <h3>Crash</h3>
+        <button onclick="bet(5000)">Apostar 5.000</button>
+      </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="profile">
+      <h2>Perfil</h2>
+      <p><strong>Nome:</strong> Luupe</p>
+      <p><strong>Cliente:</strong> VIP</p>
+      <p><strong>Idade:</strong> 2050 anos</p>
+      <p><strong>Bio:</strong> dei muito hoje</p>
+
+      <h3>Wallet</h3>
+      <p id="wallet">R$ 1.000.000</p>
+
+      <h3>Doações</h3>
+      <ul>
+        <li>R$ 50.000 - Parada LGBT SP</li>
+        <li>R$ 20.000 - ONG Diversidade</li>
+      </ul>
+    </section>
+  </main>
+
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
